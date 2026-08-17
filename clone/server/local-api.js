@@ -3083,8 +3083,12 @@ const handlers = {
     const sessionId = crypto.randomBytes(16).toString('hex');
     // 联网时同步获取云端凭证（用于代理未本地化的接口）
     // 注意：云端账号密码与本地登录口令可能不同，云端同步必须用 users.password_plain
+    // LZ_NO_CLOUD_SYNC=1 时跳过云端登录：本地与云端原版可同时在线（互不踢下线），
+    // 代价是未本地化接口失去云端实时认证（走录制兜底/离线）
     let cloud = null;
-    try { cloud = await cloudLogin(phone_number, user.password_plain || pwd); } catch {}
+    if (process.env.LZ_NO_CLOUD_SYNC !== '1') {
+      try { cloud = await cloudLogin(phone_number, user.password_plain || pwd); } catch {}
+    }
     const cloudOk = cloud && cloud.code === 0 && cloud.data;
     // 云端响应字段可能缺失（如非企业用户无 company_id），兜底避免 undefined 绑定 SQLite 报错
     const cSessionId = cloudOk ? String(cloud.data.session_id || '') : '';
@@ -3179,8 +3183,11 @@ const handlers = {
     // 企业后台接口按 company 会话认证：云端登录走 /company/login/ 并解析 Set-Cookie 的 company_session_id。
     // 密码用用户本次输入（body.admin_pwd：表单为明文，主应用跳转为 MD5；云端两者均接受），
     // 不能用 users.password_plain（那是前台云端密码，与后台密码可能不同）
+    // LZ_NO_CLOUD_SYNC=1 时跳过云端登录：本地与云端原版同时在线互不踢下线
     let cloud = null;
-    try { cloud = await cloudCompanyLogin(user.phone, String(body.admin_pwd || user.password_plain || '')); } catch {}
+    if (process.env.LZ_NO_CLOUD_SYNC !== '1') {
+      try { cloud = await cloudCompanyLogin(user.phone, String(body.admin_pwd || user.password_plain || '')); } catch {}
+    }
     const cloudOk = cloud && cloud.code === 0 && cloud.data;
     // 云端响应字段可能缺失（如非企业用户无 company_id），兜底避免 undefined 绑定 SQLite 报错
     const cSessionId = cloudOk ? String(cloud.data.session_id || '') : '';
