@@ -1,0 +1,135 @@
+{
+  "code": 0,
+  "msg": "成功",
+  "data": {
+    "template_id": 10149,
+    "template_name": "新建预算模板",
+    "type": 0,
+    "description": "",
+    "is_material_template": 0,
+    "specification_num": 2,
+    "material_num": 0,
+    "area_num": 2,
+    "areas": [
+      {
+        "id": 54300,
+        "order": 1,
+        "name": "阳台",
+        "description": "",
+        "specification_num": 2,
+        "material_num": 0,
+        "area_items": [
+          {
+            "id": 414770,
+            "order": 0,
+            "type": 0,
+            "type_name": "工程定额",
+            "name": "泥工定额",
+            "band": "-",
+            "loss_rate": "0",
+            "description": "处理基层-找规矩-打底灰-排砖放线-面砖预处理-挂浆镶贴-勾缝擦缝。工程标准：铺贴牢固，表面平整干净、缝隙均匀、周边顺直，无明显高低，空鼓面积小于总数的5%。",
+            "specification": "瓷砖墙面铺贴30*60cm",
+            "unit": "㎡",
+            "assist_material_cost": "15",
+            "main_material_cost": "17.5",
+            "worker_cost": "62",
+            "total_cost": "94.5",
+            "assist_material_sale": "18",
+            "main_material_sale": "50",
+            "worker_sale": "80",
+            "total_sale": "148",
+            "formula_list": [],
+            "formula_str": "",
+            "item_name": "泥工定额",
+            "brand_name": "-",
+            "model": "-",
+            "material_sale_price": "68",
+            "worker_sale_price": "80",
+            "assist_material_sale_price": "18",
+            "main_material_sale_price": "50",
+            "single_price": "148",
+            "total_sale_price": "148",
+            "custom_field_info": {
+              "6": {
+                "item_custom_field_value_id": 13118,
+                "content": ""
+              }
+            },
+            "file_info": {
+              "id": 0,
+              "type": 0,
+              "name": "",
+              "url": "",
+              "origin_url": ""
+            }
+          },
+          {
+            "id": 414771,
+            "order": 1,
+            "type": 0,
+            "type_name": "工程定额",
+            "name": "泥工定额",
+            "band": "-",
+            "loss_rate": "0",
+            "description": "85或95型红砖，按展开面积计算，不含水泥砂浆刮糙。抄平放线-立皮杆数-排砖摞底-盘角挂线-水泥砂浆铺设。工程标准：横平竖直、上下差缝、砂浆饱满、接搓牢固。",
+            "specification": "新砌墙12CM九五砖（1/2砖墙）",
+            "unit": "㎡",
+            "assist_material_cost": "4",
+            "main_material_cost": "90",
+            "worker_cost": "32",
+            "total_cost": "126",
+            "assist_material_sale": "12",
+            "main_material_sale": "85",
+            "worker_sale": "45",
+            "total_sale": "142",
+            "formula_list": [],
+            "formula_str": "",
+            "item_name": "泥工定额",
+            "brand_name": "-",
+            "model": "-",
+            "material_sale_price": "97",
+            "worker_sale_price": "45",
+            "assist_material_sale_price": "12",
+            "main_material_sale_price": "85",
+            "single_price": "142",
+            "total_sale_price": "142",
+            "custom_field_info": {
+              "6": {
+                "item_custom_field_value_id": 0,
+                "content": ""
+              }
+            },
+            "file_info": {
+              "id": 0,
+              "type": 0,
+              "name": "",
+              "url": "",
+              "origin_url": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": 54555,
+        "order": 2,
+        "name": "新建空间",
+        "description": "",
+        "specification_num": 0,
+        "material_num": 0,
+        "area_items": []
+      }
+    ],
+    "extra_item_num": 0,
+    "extra_items": [],
+    "manage_fee_rate": "0",
+    "tax_fee_rate": "0",
+    "change_item_manage_fee_enable": false,
+    "change_item_tax_fee_enable": false,
+    "show_fee_detail": 1,
+    "worker_loss_rate_enable": 0,
+    "extra_item_show_in_summary_table": 1,
+    "tax_show_in_summary_table": 1,
+    "manage_show_in_summary_table": 1,
+    "non_tax_price_enable": 1
+  }
+}

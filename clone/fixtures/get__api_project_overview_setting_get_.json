@@ -1,0 +1,1 @@
+{"meta":{"savedAt":"2026-08-17-18-54-29","status":200,"headers":{"content-type":"application/json; charset=utf-8"}},"body":"{\"code\": 0, \"msg\": \"成功\", \"data\": {\"budget_map\": {\"config_type\": 0, \"mode\": 0, \"roles\": []}, \"paid_map\": {\"config_type\": 1, \"mode\": 0, \"roles\": []}, \"todo_map\": {\"config_type\": 2, \"mode\": 0, \"roles\": []}}}"}

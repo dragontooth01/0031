@@ -1,0 +1,43 @@
+{
+  "code": 0,
+  "msg": "成功",
+  "data": {
+    "main_material_num": 50,
+    "assist_material_num": 1,
+    "contents": [
+      {
+        "id": 1,
+        "name": "玻璃",
+        "commodity_types": [
+          {
+            "id": 1,
+            "name": "装饰玻璃",
+            "item_num": 1
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "瓷砖类",
+        "commodity_types": [
+          {
+            "id": 1902,
+            "name": "通体砖",
+            "item_num": 1
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "全屋定制",
+        "commodity_types": [
+          {
+            "id": 84,
+            "name": "整体衣柜",
+            "item_num": 48
+          }
+        ]
+      }
+    ]
+  }
+}

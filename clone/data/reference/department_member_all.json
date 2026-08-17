@@ -1,0 +1,2349 @@
+{
+  "code": 0,
+  "msg": "成功",
+  "data": {
+    "department_list": [
+      {
+        "department_id": 33383,
+        "department_name": "管理部"
+      },
+      {
+        "department_id": 42414,
+        "department_name": "管理部/管理一部"
+      },
+      {
+        "department_id": 33387,
+        "department_name": "工程部"
+      },
+      {
+        "department_id": 33384,
+        "department_name": "行政部"
+      },
+      {
+        "department_id": 33385,
+        "department_name": "市场部"
+      },
+      {
+        "department_id": 33388,
+        "department_name": "材料部"
+      },
+      {
+        "department_id": 33386,
+        "department_name": "设计部"
+      },
+      {
+        "department_id": 35069,
+        "department_name": "财务部"
+      }
+    ],
+    "department_member_list": [
+      {
+        "department_id": 33383,
+        "department_name": "管理部",
+        "user_info": [
+          {
+            "user_id": 34806,
+            "user_name": "小君",
+            "user_phone": "18300000001",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "bb57956ac91e534b9dd92c28d13e083a",
+            "roles": [
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 199005,
+            "user_name": "ceshi",
+            "user_phone": "18889898989",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "4e374f4e8f0b5ac991e7c1bf8f967f67",
+            "roles": [
+              {
+                "role_id": 1,
+                "role_name": "设计师"
+              },
+              {
+                "role_id": 3,
+                "role_name": "制图员"
+              },
+              {
+                "role_id": 4,
+                "role_name": "软装设计"
+              },
+              {
+                "role_id": 5,
+                "role_name": "设计主管"
+              },
+              {
+                "role_id": 6,
+                "role_name": "设计总监"
+              },
+              {
+                "role_id": 7,
+                "role_name": "家装顾问"
+              },
+              {
+                "role_id": 8,
+                "role_name": "客服"
+              },
+              {
+                "role_id": 9,
+                "role_name": "市场总监"
+              },
+              {
+                "role_id": 10,
+                "role_name": "质检员"
+              },
+              {
+                "role_id": 11,
+                "role_name": "项目管家"
+              },
+              {
+                "role_id": 12,
+                "role_name": "工班长"
+              },
+              {
+                "role_id": 14,
+                "role_name": "施工部经理"
+              },
+              {
+                "role_id": 15,
+                "role_name": "施工部总监"
+              },
+              {
+                "role_id": 16,
+                "role_name": "主材专员"
+              },
+              {
+                "role_id": 17,
+                "role_name": "辅料专员"
+              },
+              {
+                "role_id": 19,
+                "role_name": "预核算专员"
+              },
+              {
+                "role_id": 20,
+                "role_name": "材料总监"
+              },
+              {
+                "role_id": 21,
+                "role_name": "行政"
+              },
+              {
+                "role_id": 22,
+                "role_name": "人事"
+              },
+              {
+                "role_id": 23,
+                "role_name": "高管助理"
+              },
+              {
+                "role_id": 24,
+                "role_name": "后勤"
+              },
+              {
+                "role_id": 27,
+                "role_name": "行政总监"
+              },
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 29,
+                "role_name": "出纳"
+              },
+              {
+                "role_id": 30,
+                "role_name": "财务总监"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 38,
+                "role_name": "预算员"
+              },
+              {
+                "role_id": 39,
+                "role_name": "销售管理"
+              },
+              {
+                "role_id": 44,
+                "role_name": "全屋定制设计师"
+              },
+              {
+                "role_id": 45,
+                "role_name": "运营总监"
+              },
+              {
+                "role_id": 46,
+                "role_name": "预算总监"
+              },
+              {
+                "role_id": 49,
+                "role_name": "新媒体"
+              },
+              {
+                "role_id": 50,
+                "role_name": "机电设计师"
+              },
+              {
+                "role_id": 51,
+                "role_name": "视频制作"
+              },
+              {
+                "role_id": 53,
+                "role_name": "社群运营"
+              },
+              {
+                "role_id": 54,
+                "role_name": "主材经理"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 60,
+                "role_name": "经理"
+              },
+              {
+                "role_id": 63,
+                "role_name": "项目合同查看角色"
+              },
+              {
+                "role_id": 70,
+                "role_name": "安装总监"
+              },
+              {
+                "role_id": 71,
+                "role_name": "监理"
+              },
+              {
+                "role_id": 72,
+                "role_name": "主材采购员"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              },
+              {
+                "role_id": 74,
+                "role_name": "业务经理"
+              },
+              {
+                "role_id": 75,
+                "role_name": "橱柜设计师"
+              },
+              {
+                "role_id": 78,
+                "role_name": "企划"
+              },
+              {
+                "role_id": 79,
+                "role_name": "安装员"
+              },
+              {
+                "role_id": 80,
+                "role_name": "仓库管理员"
+              },
+              {
+                "role_id": 81,
+                "role_name": "数据员"
+              },
+              {
+                "role_id": 82,
+                "role_name": "导购"
+              },
+              {
+                "role_id": 83,
+                "role_name": "电器售后"
+              },
+              {
+                "role_id": 87,
+                "role_name": "巡检主管"
+              },
+              {
+                "role_id": 90,
+                "role_name": "审单员"
+              },
+              {
+                "role_id": 104,
+                "role_name": "工程文员"
+              }
+            ],
+            "is_leader": 0
+          }
+        ]
+      },
+      {
+        "department_id": 42414,
+        "department_name": "管理部/管理一部",
+        "user_info": []
+      },
+      {
+        "department_id": 33387,
+        "department_name": "工程部",
+        "user_info": [
+          {
+            "user_id": 34806,
+            "user_name": "小君",
+            "user_phone": "18300000001",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "bb57956ac91e534b9dd92c28d13e083a",
+            "roles": [
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 35196,
+            "user_name": "李建",
+            "user_phone": "18300000008",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "e07a6732b99357729712e25069be26f3",
+            "roles": [
+              {
+                "role_id": 10,
+                "role_name": "质检员"
+              },
+              {
+                "role_id": 11,
+                "role_name": "项目管家"
+              },
+              {
+                "role_id": 12,
+                "role_name": "工班长"
+              },
+              {
+                "role_id": 14,
+                "role_name": "施工部经理"
+              },
+              {
+                "role_id": 15,
+                "role_name": "施工部总监"
+              },
+              {
+                "role_id": 63,
+                "role_name": "项目合同查看角色"
+              },
+              {
+                "role_id": 71,
+                "role_name": "监理"
+              },
+              {
+                "role_id": 79,
+                "role_name": "安装员"
+              },
+              {
+                "role_id": 80,
+                "role_name": "仓库管理员"
+              },
+              {
+                "role_id": 85,
+                "role_name": "项目经理"
+              },
+              {
+                "role_id": 86,
+                "role_name": "巡检总管"
+              },
+              {
+                "role_id": 87,
+                "role_name": "巡检主管"
+              },
+              {
+                "role_id": 97,
+                "role_name": "工程总监"
+              },
+              {
+                "role_id": 104,
+                "role_name": "工程文员"
+              },
+              {
+                "role_id": 119,
+                "role_name": "安全员"
+              },
+              {
+                "role_id": 120,
+                "role_name": "工程部经理助理"
+              },
+              {
+                "role_id": 125,
+                "role_name": "工程助理"
+              },
+              {
+                "role_id": 130,
+                "role_name": "收款查看权限角色"
+              },
+              {
+                "role_id": 132,
+                "role_name": "工程客服"
+              },
+              {
+                "role_id": 136,
+                "role_name": "工程部经理"
+              },
+              {
+                "role_id": 140,
+                "role_name": "工程经理"
+              },
+              {
+                "role_id": 142,
+                "role_name": "工程副总监"
+              },
+              {
+                "role_id": 152,
+                "role_name": "普工"
+              },
+              {
+                "role_id": 155,
+                "role_name": "测试项目"
+              },
+              {
+                "role_id": 206,
+                "role_name": "巡检跟进人员"
+              },
+              {
+                "role_id": 213,
+                "role_name": "合同赠品查看角色"
+              },
+              {
+                "role_id": 214,
+                "role_name": "预算查看角色"
+              },
+              {
+                "role_id": 219,
+                "role_name": "合同查看"
+              },
+              {
+                "role_id": 221,
+                "role_name": "施工部主管"
+              },
+              {
+                "role_id": 222,
+                "role_name": "付款汇总查看"
+              },
+              {
+                "role_id": 240,
+                "role_name": "工程行政主管"
+              },
+              {
+                "role_id": 247,
+                "role_name": "巡检汇总"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 199005,
+            "user_name": "ceshi",
+            "user_phone": "18889898989",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "4e374f4e8f0b5ac991e7c1bf8f967f67",
+            "roles": [
+              {
+                "role_id": 1,
+                "role_name": "设计师"
+              },
+              {
+                "role_id": 3,
+                "role_name": "制图员"
+              },
+              {
+                "role_id": 4,
+                "role_name": "软装设计"
+              },
+              {
+                "role_id": 5,
+                "role_name": "设计主管"
+              },
+              {
+                "role_id": 6,
+                "role_name": "设计总监"
+              },
+              {
+                "role_id": 7,
+                "role_name": "家装顾问"
+              },
+              {
+                "role_id": 8,
+                "role_name": "客服"
+              },
+              {
+                "role_id": 9,
+                "role_name": "市场总监"
+              },
+              {
+                "role_id": 10,
+                "role_name": "质检员"
+              },
+              {
+                "role_id": 11,
+                "role_name": "项目管家"
+              },
+              {
+                "role_id": 12,
+                "role_name": "工班长"
+              },
+              {
+                "role_id": 14,
+                "role_name": "施工部经理"
+              },
+              {
+                "role_id": 15,
+                "role_name": "施工部总监"
+              },
+              {
+                "role_id": 16,
+                "role_name": "主材专员"
+              },
+              {
+                "role_id": 17,
+                "role_name": "辅料专员"
+              },
+              {
+                "role_id": 19,
+                "role_name": "预核算专员"
+              },
+              {
+                "role_id": 20,
+                "role_name": "材料总监"
+              },
+              {
+                "role_id": 21,
+                "role_name": "行政"
+              },
+              {
+                "role_id": 22,
+                "role_name": "人事"
+              },
+              {
+                "role_id": 23,
+                "role_name": "高管助理"
+              },
+              {
+                "role_id": 24,
+                "role_name": "后勤"
+              },
+              {
+                "role_id": 27,
+                "role_name": "行政总监"
+              },
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 29,
+                "role_name": "出纳"
+              },
+              {
+                "role_id": 30,
+                "role_name": "财务总监"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 38,
+                "role_name": "预算员"
+              },
+              {
+                "role_id": 39,
+                "role_name": "销售管理"
+              },
+              {
+                "role_id": 44,
+                "role_name": "全屋定制设计师"
+              },
+              {
+                "role_id": 45,
+                "role_name": "运营总监"
+              },
+              {
+                "role_id": 46,
+                "role_name": "预算总监"
+              },
+              {
+                "role_id": 49,
+                "role_name": "新媒体"
+              },
+              {
+                "role_id": 50,
+                "role_name": "机电设计师"
+              },
+              {
+                "role_id": 51,
+                "role_name": "视频制作"
+              },
+              {
+                "role_id": 53,
+                "role_name": "社群运营"
+              },
+              {
+                "role_id": 54,
+                "role_name": "主材经理"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 60,
+                "role_name": "经理"
+              },
+              {
+                "role_id": 63,
+                "role_name": "项目合同查看角色"
+              },
+              {
+                "role_id": 70,
+                "role_name": "安装总监"
+              },
+              {
+                "role_id": 71,
+                "role_name": "监理"
+              },
+              {
+                "role_id": 72,
+                "role_name": "主材采购员"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              },
+              {
+                "role_id": 74,
+                "role_name": "业务经理"
+              },
+              {
+                "role_id": 75,
+                "role_name": "橱柜设计师"
+              },
+              {
+                "role_id": 78,
+                "role_name": "企划"
+              },
+              {
+                "role_id": 79,
+                "role_name": "安装员"
+              },
+              {
+                "role_id": 80,
+                "role_name": "仓库管理员"
+              },
+              {
+                "role_id": 81,
+                "role_name": "数据员"
+              },
+              {
+                "role_id": 82,
+                "role_name": "导购"
+              },
+              {
+                "role_id": 83,
+                "role_name": "电器售后"
+              },
+              {
+                "role_id": 87,
+                "role_name": "巡检主管"
+              },
+              {
+                "role_id": 90,
+                "role_name": "审单员"
+              },
+              {
+                "role_id": 104,
+                "role_name": "工程文员"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 81222,
+            "user_name": "乡非",
+            "user_phone": "18584854548",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "e98a8c9d2c8256719cfc1ccd66b6e900",
+            "roles": [
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 35197,
+            "user_name": "陈政",
+            "user_phone": "18300000009",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "9dbd2ba673245f1e9600e199606172fa",
+            "roles": [
+              {
+                "role_id": 11,
+                "role_name": "项目管家"
+              }
+            ],
+            "is_leader": 0
+          }
+        ]
+      },
+      {
+        "department_id": 33384,
+        "department_name": "行政部",
+        "user_info": [
+          {
+            "user_id": 34806,
+            "user_name": "小君",
+            "user_phone": "18300000001",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "bb57956ac91e534b9dd92c28d13e083a",
+            "roles": [
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              }
+            ],
+            "is_leader": 1
+          },
+          {
+            "user_id": 199005,
+            "user_name": "ceshi",
+            "user_phone": "18889898989",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "4e374f4e8f0b5ac991e7c1bf8f967f67",
+            "roles": [
+              {
+                "role_id": 1,
+                "role_name": "设计师"
+              },
+              {
+                "role_id": 3,
+                "role_name": "制图员"
+              },
+              {
+                "role_id": 4,
+                "role_name": "软装设计"
+              },
+              {
+                "role_id": 5,
+                "role_name": "设计主管"
+              },
+              {
+                "role_id": 6,
+                "role_name": "设计总监"
+              },
+              {
+                "role_id": 7,
+                "role_name": "家装顾问"
+              },
+              {
+                "role_id": 8,
+                "role_name": "客服"
+              },
+              {
+                "role_id": 9,
+                "role_name": "市场总监"
+              },
+              {
+                "role_id": 10,
+                "role_name": "质检员"
+              },
+              {
+                "role_id": 11,
+                "role_name": "项目管家"
+              },
+              {
+                "role_id": 12,
+                "role_name": "工班长"
+              },
+              {
+                "role_id": 14,
+                "role_name": "施工部经理"
+              },
+              {
+                "role_id": 15,
+                "role_name": "施工部总监"
+              },
+              {
+                "role_id": 16,
+                "role_name": "主材专员"
+              },
+              {
+                "role_id": 17,
+                "role_name": "辅料专员"
+              },
+              {
+                "role_id": 19,
+                "role_name": "预核算专员"
+              },
+              {
+                "role_id": 20,
+                "role_name": "材料总监"
+              },
+              {
+                "role_id": 21,
+                "role_name": "行政"
+              },
+              {
+                "role_id": 22,
+                "role_name": "人事"
+              },
+              {
+                "role_id": 23,
+                "role_name": "高管助理"
+              },
+              {
+                "role_id": 24,
+                "role_name": "后勤"
+              },
+              {
+                "role_id": 27,
+                "role_name": "行政总监"
+              },
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 29,
+                "role_name": "出纳"
+              },
+              {
+                "role_id": 30,
+                "role_name": "财务总监"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 38,
+                "role_name": "预算员"
+              },
+              {
+                "role_id": 39,
+                "role_name": "销售管理"
+              },
+              {
+                "role_id": 44,
+                "role_name": "全屋定制设计师"
+              },
+              {
+                "role_id": 45,
+                "role_name": "运营总监"
+              },
+              {
+                "role_id": 46,
+                "role_name": "预算总监"
+              },
+              {
+                "role_id": 49,
+                "role_name": "新媒体"
+              },
+              {
+                "role_id": 50,
+                "role_name": "机电设计师"
+              },
+              {
+                "role_id": 51,
+                "role_name": "视频制作"
+              },
+              {
+                "role_id": 53,
+                "role_name": "社群运营"
+              },
+              {
+                "role_id": 54,
+                "role_name": "主材经理"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 60,
+                "role_name": "经理"
+              },
+              {
+                "role_id": 63,
+                "role_name": "项目合同查看角色"
+              },
+              {
+                "role_id": 70,
+                "role_name": "安装总监"
+              },
+              {
+                "role_id": 71,
+                "role_name": "监理"
+              },
+              {
+                "role_id": 72,
+                "role_name": "主材采购员"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              },
+              {
+                "role_id": 74,
+                "role_name": "业务经理"
+              },
+              {
+                "role_id": 75,
+                "role_name": "橱柜设计师"
+              },
+              {
+                "role_id": 78,
+                "role_name": "企划"
+              },
+              {
+                "role_id": 79,
+                "role_name": "安装员"
+              },
+              {
+                "role_id": 80,
+                "role_name": "仓库管理员"
+              },
+              {
+                "role_id": 81,
+                "role_name": "数据员"
+              },
+              {
+                "role_id": 82,
+                "role_name": "导购"
+              },
+              {
+                "role_id": 83,
+                "role_name": "电器售后"
+              },
+              {
+                "role_id": 87,
+                "role_name": "巡检主管"
+              },
+              {
+                "role_id": 90,
+                "role_name": "审单员"
+              },
+              {
+                "role_id": 104,
+                "role_name": "工程文员"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 65834,
+            "user_name": "里斯",
+            "user_phone": "18310000001",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "500f6b3b33fb5c32980f2c4a1735ec97",
+            "roles": [
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              }
+            ],
+            "is_leader": 0
+          }
+        ]
+      },
+      {
+        "department_id": 33385,
+        "department_name": "市场部",
+        "user_info": [
+          {
+            "user_id": 34806,
+            "user_name": "小君",
+            "user_phone": "18300000001",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "bb57956ac91e534b9dd92c28d13e083a",
+            "roles": [
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 199005,
+            "user_name": "ceshi",
+            "user_phone": "18889898989",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "4e374f4e8f0b5ac991e7c1bf8f967f67",
+            "roles": [
+              {
+                "role_id": 1,
+                "role_name": "设计师"
+              },
+              {
+                "role_id": 3,
+                "role_name": "制图员"
+              },
+              {
+                "role_id": 4,
+                "role_name": "软装设计"
+              },
+              {
+                "role_id": 5,
+                "role_name": "设计主管"
+              },
+              {
+                "role_id": 6,
+                "role_name": "设计总监"
+              },
+              {
+                "role_id": 7,
+                "role_name": "家装顾问"
+              },
+              {
+                "role_id": 8,
+                "role_name": "客服"
+              },
+              {
+                "role_id": 9,
+                "role_name": "市场总监"
+              },
+              {
+                "role_id": 10,
+                "role_name": "质检员"
+              },
+              {
+                "role_id": 11,
+                "role_name": "项目管家"
+              },
+              {
+                "role_id": 12,
+                "role_name": "工班长"
+              },
+              {
+                "role_id": 14,
+                "role_name": "施工部经理"
+              },
+              {
+                "role_id": 15,
+                "role_name": "施工部总监"
+              },
+              {
+                "role_id": 16,
+                "role_name": "主材专员"
+              },
+              {
+                "role_id": 17,
+                "role_name": "辅料专员"
+              },
+              {
+                "role_id": 19,
+                "role_name": "预核算专员"
+              },
+              {
+                "role_id": 20,
+                "role_name": "材料总监"
+              },
+              {
+                "role_id": 21,
+                "role_name": "行政"
+              },
+              {
+                "role_id": 22,
+                "role_name": "人事"
+              },
+              {
+                "role_id": 23,
+                "role_name": "高管助理"
+              },
+              {
+                "role_id": 24,
+                "role_name": "后勤"
+              },
+              {
+                "role_id": 27,
+                "role_name": "行政总监"
+              },
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 29,
+                "role_name": "出纳"
+              },
+              {
+                "role_id": 30,
+                "role_name": "财务总监"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 38,
+                "role_name": "预算员"
+              },
+              {
+                "role_id": 39,
+                "role_name": "销售管理"
+              },
+              {
+                "role_id": 44,
+                "role_name": "全屋定制设计师"
+              },
+              {
+                "role_id": 45,
+                "role_name": "运营总监"
+              },
+              {
+                "role_id": 46,
+                "role_name": "预算总监"
+              },
+              {
+                "role_id": 49,
+                "role_name": "新媒体"
+              },
+              {
+                "role_id": 50,
+                "role_name": "机电设计师"
+              },
+              {
+                "role_id": 51,
+                "role_name": "视频制作"
+              },
+              {
+                "role_id": 53,
+                "role_name": "社群运营"
+              },
+              {
+                "role_id": 54,
+                "role_name": "主材经理"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 60,
+                "role_name": "经理"
+              },
+              {
+                "role_id": 63,
+                "role_name": "项目合同查看角色"
+              },
+              {
+                "role_id": 70,
+                "role_name": "安装总监"
+              },
+              {
+                "role_id": 71,
+                "role_name": "监理"
+              },
+              {
+                "role_id": 72,
+                "role_name": "主材采购员"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              },
+              {
+                "role_id": 74,
+                "role_name": "业务经理"
+              },
+              {
+                "role_id": 75,
+                "role_name": "橱柜设计师"
+              },
+              {
+                "role_id": 78,
+                "role_name": "企划"
+              },
+              {
+                "role_id": 79,
+                "role_name": "安装员"
+              },
+              {
+                "role_id": 80,
+                "role_name": "仓库管理员"
+              },
+              {
+                "role_id": 81,
+                "role_name": "数据员"
+              },
+              {
+                "role_id": 82,
+                "role_name": "导购"
+              },
+              {
+                "role_id": 83,
+                "role_name": "电器售后"
+              },
+              {
+                "role_id": 87,
+                "role_name": "巡检主管"
+              },
+              {
+                "role_id": 90,
+                "role_name": "审单员"
+              },
+              {
+                "role_id": 104,
+                "role_name": "工程文员"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 35190,
+            "user_name": "李小爱",
+            "user_phone": "18300000002",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "29511b658c005e13bc826e15e8de7594",
+            "roles": [
+              {
+                "role_id": 21,
+                "role_name": "行政"
+              },
+              {
+                "role_id": 22,
+                "role_name": "人事"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 35192,
+            "user_name": "许智",
+            "user_phone": "18300000004",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "95bf93bdfbeb549d827e6c4b82ef7265",
+            "roles": [
+              {
+                "role_id": 7,
+                "role_name": "家装顾问"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 35191,
+            "user_name": "吴铂",
+            "user_phone": "18300000003",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "8ecfd50c9f0b52f3816b234e87047c88",
+            "roles": [
+              {
+                "role_id": 7,
+                "role_name": "家装顾问"
+              }
+            ],
+            "is_leader": 0
+          }
+        ]
+      },
+      {
+        "department_id": 33388,
+        "department_name": "材料部",
+        "user_info": [
+          {
+            "user_id": 34806,
+            "user_name": "小君",
+            "user_phone": "18300000001",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "bb57956ac91e534b9dd92c28d13e083a",
+            "roles": [
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 199005,
+            "user_name": "ceshi",
+            "user_phone": "18889898989",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "4e374f4e8f0b5ac991e7c1bf8f967f67",
+            "roles": [
+              {
+                "role_id": 1,
+                "role_name": "设计师"
+              },
+              {
+                "role_id": 3,
+                "role_name": "制图员"
+              },
+              {
+                "role_id": 4,
+                "role_name": "软装设计"
+              },
+              {
+                "role_id": 5,
+                "role_name": "设计主管"
+              },
+              {
+                "role_id": 6,
+                "role_name": "设计总监"
+              },
+              {
+                "role_id": 7,
+                "role_name": "家装顾问"
+              },
+              {
+                "role_id": 8,
+                "role_name": "客服"
+              },
+              {
+                "role_id": 9,
+                "role_name": "市场总监"
+              },
+              {
+                "role_id": 10,
+                "role_name": "质检员"
+              },
+              {
+                "role_id": 11,
+                "role_name": "项目管家"
+              },
+              {
+                "role_id": 12,
+                "role_name": "工班长"
+              },
+              {
+                "role_id": 14,
+                "role_name": "施工部经理"
+              },
+              {
+                "role_id": 15,
+                "role_name": "施工部总监"
+              },
+              {
+                "role_id": 16,
+                "role_name": "主材专员"
+              },
+              {
+                "role_id": 17,
+                "role_name": "辅料专员"
+              },
+              {
+                "role_id": 19,
+                "role_name": "预核算专员"
+              },
+              {
+                "role_id": 20,
+                "role_name": "材料总监"
+              },
+              {
+                "role_id": 21,
+                "role_name": "行政"
+              },
+              {
+                "role_id": 22,
+                "role_name": "人事"
+              },
+              {
+                "role_id": 23,
+                "role_name": "高管助理"
+              },
+              {
+                "role_id": 24,
+                "role_name": "后勤"
+              },
+              {
+                "role_id": 27,
+                "role_name": "行政总监"
+              },
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 29,
+                "role_name": "出纳"
+              },
+              {
+                "role_id": 30,
+                "role_name": "财务总监"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 38,
+                "role_name": "预算员"
+              },
+              {
+                "role_id": 39,
+                "role_name": "销售管理"
+              },
+              {
+                "role_id": 44,
+                "role_name": "全屋定制设计师"
+              },
+              {
+                "role_id": 45,
+                "role_name": "运营总监"
+              },
+              {
+                "role_id": 46,
+                "role_name": "预算总监"
+              },
+              {
+                "role_id": 49,
+                "role_name": "新媒体"
+              },
+              {
+                "role_id": 50,
+                "role_name": "机电设计师"
+              },
+              {
+                "role_id": 51,
+                "role_name": "视频制作"
+              },
+              {
+                "role_id": 53,
+                "role_name": "社群运营"
+              },
+              {
+                "role_id": 54,
+                "role_name": "主材经理"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 60,
+                "role_name": "经理"
+              },
+              {
+                "role_id": 63,
+                "role_name": "项目合同查看角色"
+              },
+              {
+                "role_id": 70,
+                "role_name": "安装总监"
+              },
+              {
+                "role_id": 71,
+                "role_name": "监理"
+              },
+              {
+                "role_id": 72,
+                "role_name": "主材采购员"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              },
+              {
+                "role_id": 74,
+                "role_name": "业务经理"
+              },
+              {
+                "role_id": 75,
+                "role_name": "橱柜设计师"
+              },
+              {
+                "role_id": 78,
+                "role_name": "企划"
+              },
+              {
+                "role_id": 79,
+                "role_name": "安装员"
+              },
+              {
+                "role_id": 80,
+                "role_name": "仓库管理员"
+              },
+              {
+                "role_id": 81,
+                "role_name": "数据员"
+              },
+              {
+                "role_id": 82,
+                "role_name": "导购"
+              },
+              {
+                "role_id": 83,
+                "role_name": "电器售后"
+              },
+              {
+                "role_id": 87,
+                "role_name": "巡检主管"
+              },
+              {
+                "role_id": 90,
+                "role_name": "审单员"
+              },
+              {
+                "role_id": 104,
+                "role_name": "工程文员"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 35198,
+            "user_name": "王俊民",
+            "user_phone": "18300000010",
+            "user_avatar": "http://cdn.e-shigong.com/user-35198-image-1661939632-1661939632511_.jpg?imageView2/0/w/240/h/240/interlace/1",
+            "user_accid": "6b4407a334e154228a651122098e9a0c",
+            "roles": [
+              {
+                "role_id": 16,
+                "role_name": "主材专员"
+              },
+              {
+                "role_id": 17,
+                "role_name": "辅料专员"
+              }
+            ],
+            "is_leader": 0
+          }
+        ]
+      },
+      {
+        "department_id": 33386,
+        "department_name": "设计部",
+        "user_info": [
+          {
+            "user_id": 34806,
+            "user_name": "小君",
+            "user_phone": "18300000001",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "bb57956ac91e534b9dd92c28d13e083a",
+            "roles": [
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 199005,
+            "user_name": "ceshi",
+            "user_phone": "18889898989",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "4e374f4e8f0b5ac991e7c1bf8f967f67",
+            "roles": [
+              {
+                "role_id": 1,
+                "role_name": "设计师"
+              },
+              {
+                "role_id": 3,
+                "role_name": "制图员"
+              },
+              {
+                "role_id": 4,
+                "role_name": "软装设计"
+              },
+              {
+                "role_id": 5,
+                "role_name": "设计主管"
+              },
+              {
+                "role_id": 6,
+                "role_name": "设计总监"
+              },
+              {
+                "role_id": 7,
+                "role_name": "家装顾问"
+              },
+              {
+                "role_id": 8,
+                "role_name": "客服"
+              },
+              {
+                "role_id": 9,
+                "role_name": "市场总监"
+              },
+              {
+                "role_id": 10,
+                "role_name": "质检员"
+              },
+              {
+                "role_id": 11,
+                "role_name": "项目管家"
+              },
+              {
+                "role_id": 12,
+                "role_name": "工班长"
+              },
+              {
+                "role_id": 14,
+                "role_name": "施工部经理"
+              },
+              {
+                "role_id": 15,
+                "role_name": "施工部总监"
+              },
+              {
+                "role_id": 16,
+                "role_name": "主材专员"
+              },
+              {
+                "role_id": 17,
+                "role_name": "辅料专员"
+              },
+              {
+                "role_id": 19,
+                "role_name": "预核算专员"
+              },
+              {
+                "role_id": 20,
+                "role_name": "材料总监"
+              },
+              {
+                "role_id": 21,
+                "role_name": "行政"
+              },
+              {
+                "role_id": 22,
+                "role_name": "人事"
+              },
+              {
+                "role_id": 23,
+                "role_name": "高管助理"
+              },
+              {
+                "role_id": 24,
+                "role_name": "后勤"
+              },
+              {
+                "role_id": 27,
+                "role_name": "行政总监"
+              },
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 29,
+                "role_name": "出纳"
+              },
+              {
+                "role_id": 30,
+                "role_name": "财务总监"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 38,
+                "role_name": "预算员"
+              },
+              {
+                "role_id": 39,
+                "role_name": "销售管理"
+              },
+              {
+                "role_id": 44,
+                "role_name": "全屋定制设计师"
+              },
+              {
+                "role_id": 45,
+                "role_name": "运营总监"
+              },
+              {
+                "role_id": 46,
+                "role_name": "预算总监"
+              },
+              {
+                "role_id": 49,
+                "role_name": "新媒体"
+              },
+              {
+                "role_id": 50,
+                "role_name": "机电设计师"
+              },
+              {
+                "role_id": 51,
+                "role_name": "视频制作"
+              },
+              {
+                "role_id": 53,
+                "role_name": "社群运营"
+              },
+              {
+                "role_id": 54,
+                "role_name": "主材经理"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 60,
+                "role_name": "经理"
+              },
+              {
+                "role_id": 63,
+                "role_name": "项目合同查看角色"
+              },
+              {
+                "role_id": 70,
+                "role_name": "安装总监"
+              },
+              {
+                "role_id": 71,
+                "role_name": "监理"
+              },
+              {
+                "role_id": 72,
+                "role_name": "主材采购员"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              },
+              {
+                "role_id": 74,
+                "role_name": "业务经理"
+              },
+              {
+                "role_id": 75,
+                "role_name": "橱柜设计师"
+              },
+              {
+                "role_id": 78,
+                "role_name": "企划"
+              },
+              {
+                "role_id": 79,
+                "role_name": "安装员"
+              },
+              {
+                "role_id": 80,
+                "role_name": "仓库管理员"
+              },
+              {
+                "role_id": 81,
+                "role_name": "数据员"
+              },
+              {
+                "role_id": 82,
+                "role_name": "导购"
+              },
+              {
+                "role_id": 83,
+                "role_name": "电器售后"
+              },
+              {
+                "role_id": 87,
+                "role_name": "巡检主管"
+              },
+              {
+                "role_id": 90,
+                "role_name": "审单员"
+              },
+              {
+                "role_id": 104,
+                "role_name": "工程文员"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 101643,
+            "user_name": "刘亮",
+            "user_phone": "15698789879",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "7ddda398438858aba9b45d2364e1134f",
+            "roles": [
+              {
+                "role_id": 1,
+                "role_name": "设计师"
+              }
+            ],
+            "is_leader": 0
+          },
+          {
+            "user_id": 35194,
+            "user_name": "张凤",
+            "user_phone": "18300000006",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "0705b6c9789957aa80647a85e78a4eef",
+            "roles": [
+              {
+                "role_id": 1,
+                "role_name": "设计师"
+              }
+            ],
+            "is_leader": 0
+          }
+        ]
+      },
+      {
+        "department_id": 35069,
+        "department_name": "财务部",
+        "user_info": [
+          {
+            "user_id": 34806,
+            "user_name": "小君",
+            "user_phone": "18300000001",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "bb57956ac91e534b9dd92c28d13e083a",
+            "roles": [
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              }
+            ],
+            "is_leader": 1
+          },
+          {
+            "user_id": 199005,
+            "user_name": "ceshi",
+            "user_phone": "18889898989",
+            "user_avatar": "https://cdn.e-shigong.com/brief_default_avatar.png",
+            "user_accid": "4e374f4e8f0b5ac991e7c1bf8f967f67",
+            "roles": [
+              {
+                "role_id": 1,
+                "role_name": "设计师"
+              },
+              {
+                "role_id": 3,
+                "role_name": "制图员"
+              },
+              {
+                "role_id": 4,
+                "role_name": "软装设计"
+              },
+              {
+                "role_id": 5,
+                "role_name": "设计主管"
+              },
+              {
+                "role_id": 6,
+                "role_name": "设计总监"
+              },
+              {
+                "role_id": 7,
+                "role_name": "家装顾问"
+              },
+              {
+                "role_id": 8,
+                "role_name": "客服"
+              },
+              {
+                "role_id": 9,
+                "role_name": "市场总监"
+              },
+              {
+                "role_id": 10,
+                "role_name": "质检员"
+              },
+              {
+                "role_id": 11,
+                "role_name": "项目管家"
+              },
+              {
+                "role_id": 12,
+                "role_name": "工班长"
+              },
+              {
+                "role_id": 14,
+                "role_name": "施工部经理"
+              },
+              {
+                "role_id": 15,
+                "role_name": "施工部总监"
+              },
+              {
+                "role_id": 16,
+                "role_name": "主材专员"
+              },
+              {
+                "role_id": 17,
+                "role_name": "辅料专员"
+              },
+              {
+                "role_id": 19,
+                "role_name": "预核算专员"
+              },
+              {
+                "role_id": 20,
+                "role_name": "材料总监"
+              },
+              {
+                "role_id": 21,
+                "role_name": "行政"
+              },
+              {
+                "role_id": 22,
+                "role_name": "人事"
+              },
+              {
+                "role_id": 23,
+                "role_name": "高管助理"
+              },
+              {
+                "role_id": 24,
+                "role_name": "后勤"
+              },
+              {
+                "role_id": 27,
+                "role_name": "行政总监"
+              },
+              {
+                "role_id": 28,
+                "role_name": "财务"
+              },
+              {
+                "role_id": 29,
+                "role_name": "出纳"
+              },
+              {
+                "role_id": 30,
+                "role_name": "财务总监"
+              },
+              {
+                "role_id": 31,
+                "role_name": "店面经理"
+              },
+              {
+                "role_id": 32,
+                "role_name": "总经理"
+              },
+              {
+                "role_id": 33,
+                "role_name": "董事长"
+              },
+              {
+                "role_id": 37,
+                "role_name": "系统管理员"
+              },
+              {
+                "role_id": 38,
+                "role_name": "预算员"
+              },
+              {
+                "role_id": 39,
+                "role_name": "销售管理"
+              },
+              {
+                "role_id": 44,
+                "role_name": "全屋定制设计师"
+              },
+              {
+                "role_id": 45,
+                "role_name": "运营总监"
+              },
+              {
+                "role_id": 46,
+                "role_name": "预算总监"
+              },
+              {
+                "role_id": 49,
+                "role_name": "新媒体"
+              },
+              {
+                "role_id": 50,
+                "role_name": "机电设计师"
+              },
+              {
+                "role_id": 51,
+                "role_name": "视频制作"
+              },
+              {
+                "role_id": 53,
+                "role_name": "社群运营"
+              },
+              {
+                "role_id": 54,
+                "role_name": "主材经理"
+              },
+              {
+                "role_id": 57,
+                "role_name": "部长"
+              },
+              {
+                "role_id": 58,
+                "role_name": "副部长"
+              },
+              {
+                "role_id": 60,
+                "role_name": "经理"
+              },
+              {
+                "role_id": 63,
+                "role_name": "项目合同查看角色"
+              },
+              {
+                "role_id": 70,
+                "role_name": "安装总监"
+              },
+              {
+                "role_id": 71,
+                "role_name": "监理"
+              },
+              {
+                "role_id": 72,
+                "role_name": "主材采购员"
+              },
+              {
+                "role_id": 73,
+                "role_name": "合伙人"
+              },
+              {
+                "role_id": 74,
+                "role_name": "业务经理"
+              },
+              {
+                "role_id": 75,
+                "role_name": "橱柜设计师"
+              },
+              {
+                "role_id": 78,
+                "role_name": "企划"
+              },
+              {
+                "role_id": 79,
+                "role_name": "安装员"
+              },
+              {
+                "role_id": 80,
+                "role_name": "仓库管理员"
+              },
+              {
+                "role_id": 81,
+                "role_name": "数据员"
+              },
+              {
+                "role_id": 82,
+                "role_name": "导购"
+              },
+              {
+                "role_id": 83,
+                "role_name": "电器售后"
+              },
+              {
+                "role_id": 87,
+                "role_name": "巡检主管"
+              },
+              {
+                "role_id": 90,
+                "role_name": "审单员"
+              },
+              {
+                "role_id": 104,
+                "role_name": "工程文员"
+              }
+            ],
+            "is_leader": 0
+          }
+        ]
+      }
+    ]
+  }
+}

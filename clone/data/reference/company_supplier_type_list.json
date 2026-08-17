@@ -1,0 +1,75 @@
+{
+  "code": 0,
+  "msg": "成功",
+  "data": {
+    "supplier_assist_types": [
+      {
+        "supplier_type_id": 1,
+        "supplier_type_name": "保护材料",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 2,
+        "supplier_type_name": "水电材料",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 3,
+        "supplier_type_name": "泥瓦材料",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 4,
+        "supplier_type_name": "模板材料",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 5,
+        "supplier_type_name": "油漆材料",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 2122,
+        "supplier_type_name": "腻子",
+        "is_sys_type": 0
+      }
+    ],
+    "supplier_main_types": [
+      {
+        "supplier_type_id": 6,
+        "supplier_type_name": "主材",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 7,
+        "supplier_type_name": "暖通/机电",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 8,
+        "supplier_type_name": "软装/家具",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 9,
+        "supplier_type_name": "家电/电器",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 10,
+        "supplier_type_name": "智能家居",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 11,
+        "supplier_type_name": "全屋定制",
+        "is_sys_type": 1
+      },
+      {
+        "supplier_type_id": 12,
+        "supplier_type_name": "橱柜定制",
+        "is_sys_type": 1
+      }
+    ]
+  }
+}

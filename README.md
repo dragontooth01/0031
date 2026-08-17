@@ -1,3 +1,26 @@
+# 亮宅 · 易施工 本地克隆系统
+
+> 本项目为「亮宅 / 易施工」整套系统的本地 1:1 克隆交付物。下方为模板原始英文文档。
+
+## 交付物概览
+
+| 内容 | 位置 | 说明 |
+| --- | --- | --- |
+| 克隆后端（核心交付） | [`clone/`](clone/README.md) | 零依赖 Node 服务器：静态托管前台/后台 SPA + `/api` 真实代理 + 自动录制/离线回放 + IPC/SSE/下载/预览兼容层 |
+| 前台 SPA（1:1） | `clone/vendor/liangzhai/` | 原桌面客户端编译产物（复制自原安装目录并本地化改写） |
+| 后台 SPA（1:1） | `clone/vendor/enterprise/` | 装企后台管理系统（下载自 enterprise.e-shigong.com 并本地化改写） |
+| 录制数据 | `clone/fixtures/` | API 响应快照，离线模式回放用 |
+| 本页（入口页） | `src/app/page.tsx` | Next.js 首页，链接到克隆系统的前台/后台 |
+
+**启动：** `cd clone && node server.js`（或双击 `clone\start.bat`），然后访问：
+
+- 门户 http://localhost:8000/ —— 前台 http://localhost:8000/liangzhai/（18300000001 / 123456789）
+- 后台 http://localhost:8000/enterprise/（18300000001 / 123456）
+
+**数据模式：** `set LZ_FIXTURE_MODE=auto|live|offline && node server.js`（默认 auto：真实优先 + 录制 + 离线回放）。
+
+---
+
 <div align="center">
 
 # AI Website Cloner Template

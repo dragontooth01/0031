@@ -1,0 +1,1 @@
+{"meta":{"savedAt":"2026-08-17-19-18-03","status":200,"headers":{"content-type":"application/json; charset=utf-8"}},"body":"{\"code\": 0, \"msg\": \"成功\", \"data\": {\"project_types\": [{\"id\": 1, \"name\": \"设计施工\", \"can_del\": 0}, {\"id\": 2, \"name\": \"施工\", \"can_del\": 0}, {\"id\": 3, \"name\": \"设计\", \"can_del\": 0}]}}"}

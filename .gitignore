@@ -47,3 +47,10 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# ===== 0031 克隆项目本地排除 =====
+# 测试脚本与浏览器会话（含登录 Cookies，绝不推送）
+.tmp-recon/
+# 历史备份
+clone-backup-*/
+*.log

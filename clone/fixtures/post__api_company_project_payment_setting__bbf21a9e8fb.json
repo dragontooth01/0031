@@ -1,0 +1,1 @@
+{"meta":{"savedAt":"2026-08-17-06-15-31","status":200,"headers":{"content-type":"application/json; charset=utf-8"}},"body":"{\"code\": 0, \"msg\": \"成功\", \"data\": {\"enable\": 1, \"limit_way\": 1, \"limit_rate\": \"20\", \"handle_type\": 0}}"}

@@ -1,0 +1,142 @@
+{
+ "0": {
+  "normal_num": 0,
+  "bad_num": 0,
+  "total_num": 0,
+  "total_prepay_amount": "0.00",
+  "total_paid_amount": "0.00",
+  "total_uncollected_amount": "0.00",
+  "all_projects": [],
+  "all_owners": [
+   {
+    "owner_id": 35197,
+    "owner_name": "陈政"
+   },
+   {
+    "owner_id": 35195,
+    "owner_name": "方一强"
+   },
+   {
+    "owner_id": 35194,
+    "owner_name": "张凤"
+   },
+   {
+    "owner_id": 35193,
+    "owner_name": "王恩龙"
+   },
+   {
+    "owner_id": 35192,
+    "owner_name": "许智"
+   },
+   {
+    "owner_id": 35191,
+    "owner_name": "吴铂"
+   },
+   {
+    "owner_id": 35190,
+    "owner_name": "李小爱"
+   },
+   {
+    "owner_id": 34806,
+    "owner_name": "小君"
+   }
+  ],
+  "all_pms": [
+   {
+    "pm_id": 35198,
+    "pm_name": "王俊民"
+   },
+   {
+    "pm_id": 35197,
+    "pm_name": "陈政"
+   },
+   {
+    "pm_id": 35196,
+    "pm_name": "李建"
+   },
+   {
+    "pm_id": 35191,
+    "pm_name": "吴铂"
+   },
+   {
+    "pm_id": 35190,
+    "pm_name": "李小爱"
+   },
+   {
+    "pm_id": 34806,
+    "pm_name": "小君"
+   }
+  ],
+  "contents": []
+ },
+ "1": {
+  "normal_num": 0,
+  "bad_num": 0,
+  "total_num": 0,
+  "total_prepay_amount": "0.00",
+  "total_paid_amount": "0.00",
+  "total_uncollected_amount": "0.00",
+  "all_projects": [],
+  "all_owners": [
+   {
+    "owner_id": 35197,
+    "owner_name": "陈政"
+   },
+   {
+    "owner_id": 35195,
+    "owner_name": "方一强"
+   },
+   {
+    "owner_id": 35194,
+    "owner_name": "张凤"
+   },
+   {
+    "owner_id": 35193,
+    "owner_name": "王恩龙"
+   },
+   {
+    "owner_id": 35192,
+    "owner_name": "许智"
+   },
+   {
+    "owner_id": 35191,
+    "owner_name": "吴铂"
+   },
+   {
+    "owner_id": 35190,
+    "owner_name": "李小爱"
+   },
+   {
+    "owner_id": 34806,
+    "owner_name": "小君"
+   }
+  ],
+  "all_pms": [
+   {
+    "pm_id": 35198,
+    "pm_name": "王俊民"
+   },
+   {
+    "pm_id": 35197,
+    "pm_name": "陈政"
+   },
+   {
+    "pm_id": 35196,
+    "pm_name": "李建"
+   },
+   {
+    "pm_id": 35191,
+    "pm_name": "吴铂"
+   },
+   {
+    "pm_id": 35190,
+    "pm_name": "李小爱"
+   },
+   {
+    "pm_id": 34806,
+    "pm_name": "小君"
+   }
+  ],
+  "contents": []
+ }
+}

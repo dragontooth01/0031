@@ -1,0 +1,1 @@
+{"meta":{"savedAt":"2026-08-18-00-48-32","status":200,"headers":{"content-type":"application/json; charset=utf-8"}},"body":"{\"code\": 0, \"msg\": \"成功\", \"data\": {\"province_code\": 440000, \"city_code\": 440100, \"area_code\": 440101, \"province_name\": \"广东省\", \"city_name\": \"广州市\", \"area_name\": \"市辖区\"}}"}

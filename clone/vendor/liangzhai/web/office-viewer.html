@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>文档预览</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; background: #404040; color: #333; }
+  #toolbar {
+    height: 44px; background: #323639; color: #fff; display: flex; align-items: center;
+    padding: 0 16px; gap: 12px; position: sticky; top: 0; z-index: 10;
+  }
+  #toolbar .name { flex: 1; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #toolbar a, #toolbar button {
+    background: rgba(255,255,255,.12); color: #fff; border: none; border-radius: 4px;
+    padding: 6px 14px; font-size: 13px; cursor: pointer; text-decoration: none;
+  }
+  #toolbar a:hover, #toolbar button:hover { background: rgba(255,255,255,.22); }
+  #wrap { background: #525659; padding: 16px; min-height: calc(100vh - 44px); }
+  #content { background: #fff; border-radius: 4px; padding: 16px; overflow: auto; box-shadow: 0 2px 8px rgba(0,0,0,.3); }
+  #loading { color: #cfcfcf; text-align: center; padding: 60px 0; font-size: 14px; }
+  #msg { color: #e0b0b0; text-align: center; padding: 60px 0; font-size: 14px; line-height: 2; }
+  table { border-collapse: collapse; width: 100%; }
+  table td, table th { border: 1px solid #d0d7de; padding: 6px 10px; font-size: 13px; min-width: 60px; }
+  table th { background: #f6f8fa; font-weight: 600; position: sticky; top: 0; }
+  .sheet-tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+  .sheet-tabs button {
+    border: 1px solid #d0d7de; background: #f6f8fa; border-radius: 4px; padding: 4px 12px;
+    font-size: 12px; cursor: pointer; color: #333;
+  }
+  .sheet-tabs button.active { background: #2563eb; border-color: #2563eb; color: #fff; }
+  .sheet-pane { display: none; }
+  .sheet-pane.active { display: block; }
+  h3 { margin: 8px 0; font-size: 14px; color: #555; }
+</style>
+</head>
+<body>
+<div id="toolbar">
+  <span class="name" id="fname">文档预览</span>
+  <a id="download" href="#" target="_blank" rel="noopener">下载原文件</a>
+</div>
+<div id="wrap"><div id="content"><div id="loading">加载中…</div></div></div>
+
+<script src="lib/mammoth.browser.min.js"></script>
+<script src="lib/xlsx.full.min.js"></script>
+<script>
+(function () {
+  var src = new URLSearchParams(location.search).get('src') || '';
+  if (!src) { showMsg('缺少文件地址参数'); return; }
+  var fname = decodeURIComponent((src.split('/').pop() || 'file').split('?')[0]);
+  document.getElementById('fname').textContent = fname;
+  var dl = document.getElementById('download');
+  dl.href = src;
+  dl.setAttribute('download', fname);
+
+  var isXlsx = /\.xlsx?$/i.test(fname);
+  var isDocx = /\.docx?$/i.test(fname);
+
+  // 经本地代理拉取（绕过 CDN CORS 限制，同源请求）
+  var proxySrc = '/__file?url=' + encodeURIComponent(src);
+
+  function showMsg(m) {
+    document.getElementById('content').innerHTML = '<div id="msg">' + m + '</div>';
+  }
+
+  fetch(proxySrc)
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.arrayBuffer();
+    })
+    .then(function (buf) {
+      if (isXlsx) return renderXlsx(buf);
+      if (isDocx) return renderDocx(buf);
+      showMsg('该格式暂不支持在线预览，请点击右上角「下载原文件」查看。<br>' + fname);
+    })
+    .catch(function (e) {
+      showMsg('文件加载失败：' + e.message + '<br>请点击右上角「下载原文件」查看。');
+    });
+
+  // ---- Excel：SheetJS 表格渲染 ----
+  function renderXlsx(buf) {
+    var wb = XLSX.read(buf, { type: 'array' });
+    if (!wb.SheetNames.length) { showMsg('Excel 中没有工作表'); return; }
+    var wrap = document.getElementById('content');
+    wrap.innerHTML = '';
+    var tabs = document.createElement('div');
+    tabs.className = 'sheet-tabs';
+    var panes = [];
+    wb.SheetNames.forEach(function (name, i) {
+      var btn = document.createElement('button');
+      btn.textContent = name;
+      btn.onclick = function () {
+        for (var k = 0; k < tabs.children.length; k++) tabs.children[k].classList.remove('active');
+        btn.classList.add('active');
+        for (var k = 0; k < panes.length; k++) panes[k].classList.toggle('active', k === i);
+      };
+      if (i === 0) btn.classList.add('active');
+      tabs.appendChild(btn);
+
+      var pane = document.createElement('div');
+      pane.className = 'sheet-pane' + (i === 0 ? ' active' : '');
+      var ws = wb.Sheets[name];
+      pane.innerHTML = XLSX.utils.sheet_to_html(ws, { editable: false });
+      wrap.appendChild(pane);
+      panes.push(pane);
+    });
+    wrap.insertBefore(tabs, wrap.firstChild);
+  }
+
+  // ---- Word：mammoth 渲染为 HTML ----
+  function renderDocx(buf) {
+    mammoth.convertToHtml({ arrayBuffer: buf })
+      .then(function (result) {
+        var wrap = document.getElementById('content');
+        wrap.innerHTML = result.value || '（文档内容为空）';
+        var st = document.createElement('style');
+        st.textContent = '#content p { margin: 0 0 10px; line-height: 1.7; font-size: 14px; } ' +
+          '#content h1,#content h2,#content h3 { margin: 14px 0 8px; } #content img { max-width: 100%; }';
+        wrap.appendChild(st);
+      })
+      .catch(function (e) { showMsg('Word 文档解析失败：' + e.message); });
+  }
+})();
+</script>
+</body>
+</html>

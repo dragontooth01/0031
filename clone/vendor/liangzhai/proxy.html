@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html, body{
+      height: 100%;
+      margin: 0;
+    }
+    ::-webkit-scrollbar-track-piece {
+      width: 8px;
+      background-color: rgba(45, 57, 74, 0.01);
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      height: 50px;
+      background: rgba(45, 57, 74, 0.2);
+      cursor:pointer;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(45, 57, 74, 0.2);
+      cursor: pointer;
+    }
+  </style>
+  <script src="./pdf.min.js"></script>
+</head>
+<body>
+  <div id="holder"></div>
+
+  <script type="text/javascript">
+    function renderPDF(url, options) {
+      var options = options || { scale: 1 };
+
+      function renderPage(page) {
+        var viewport = page.getViewport(options.scale);
+        var canvas = document.createElement('canvas');
+        canvas.style.width = '100%';
+        var ctx = canvas.getContext('2d');
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+        document.getElementById('holder').appendChild(canvas);
+
+        page.render(renderContext);
+      }
+
+      function renderPages(pdfDoc) {
+        for(var num = 1; num <= pdfDoc.numPages; num++)
+          pdfDoc.getPage(num).then(renderPage);
+      }
+      PDFJS.disableWorker = true;
+      PDFJS.getDocument(url).then(renderPages);
+    }
+  </script>
+</body>
+</html>

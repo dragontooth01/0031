@@ -1,0 +1,17 @@
+{
+  "name": "liangzhai-clone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "亮宅/易施工 本地克隆系统：前台（亮宅操作端）+ 后台（装企后台管理系统）1:1 复刻，后端 API 代理 + 自动录制离线兜底",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "patch": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts\\patch-vendored.ps1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

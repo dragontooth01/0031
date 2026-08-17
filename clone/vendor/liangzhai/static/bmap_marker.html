@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>工地打卡</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <style>
+    html,body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    #bmap {
+      width: 100%;
+      height: 100%;
+      background-color: #f3f1ec;
+    }
+  </style>
+</head>
+<body>
+  <div id="bmap"></div>
+
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=SYzTD7MWUkkDZU8ssVjkrZklTSZb5yD3"></script>
+  <script type="text/javascript">
+    // 坐标转换
+    function GCJ02ToBD09(lng, lat) {
+      let x_pi = 3.14159265358979324 * 3000.0 / 180.0;
+      let x = lng;
+      let y = lat;
+      let z = Math.sqrt(x * x + y * y) + 0.00002 * Math.sin(y * x_pi);
+      let theta = Math.atan2(y, x) + 0.000003 * Math.cos(x * x_pi);
+      let lngs = z * Math.cos(theta) + 0.0065;
+      let lats = z * Math.sin(theta) + 0.006;
+
+      return {
+        lng: lngs,
+        lat: lats 
+      } 
+    }
+
+    function getUrlParams() {
+      var params = {};
+      var search = window.location.search.substring(1);
+      if (search) {
+        var pairs = search.split('&');
+        for (var i = 0; i < pairs.length; i++) {
+          var pair = pairs[i].split('=');
+          var key = decodeURIComponent(pair[0]);
+          var value = decodeURIComponent(pair[1] || '');
+          params[key] = value;
+        }
+      }
+      return params;
+    }
+    var urlParams = getUrlParams();
+    var ll = GCJ02ToBD09(parseFloat(urlParams.lng), parseFloat(urlParams.lat));
+    var lng = ll.lng;
+    var lat = ll.lat;
+    var bmap = new BMap.Map("bmap");
+    var point = new BMap.Point(lng, lat);
+    bmap.centerAndZoom(point, 16);
+    bmap.enableScrollWheelZoom();
+    var marker = new BMap.Marker(point);
+    bmap.addOverlay(marker);
+  </script>
+</body>
+</html>

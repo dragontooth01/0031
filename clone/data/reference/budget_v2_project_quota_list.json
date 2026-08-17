@@ -1,0 +1,80 @@
+{
+  "code": 0,
+  "msg": "成功",
+  "data": {
+    "project_quota_list": [
+      {
+        "id": 27943,
+        "name": "泥工定额",
+        "dir_class": 0,
+        "order": 0,
+        "parent_id": 0,
+        "enable": 1,
+        "project_quota_list": []
+      },
+      {
+        "id": 717091,
+        "name": "工程类型",
+        "dir_class": 0,
+        "order": 2,
+        "parent_id": 0,
+        "enable": 1,
+        "project_quota_list": []
+      },
+      {
+        "id": 717483,
+        "name": "工程类型",
+        "dir_class": 0,
+        "order": 2,
+        "parent_id": 0,
+        "enable": 1,
+        "project_quota_list": []
+      },
+      {
+        "id": 28794,
+        "name": "地面定额",
+        "dir_class": 0,
+        "order": 3,
+        "parent_id": 0,
+        "enable": 1,
+        "project_quota_list": []
+      },
+      {
+        "id": 28168,
+        "name": "拆除定额",
+        "dir_class": 0,
+        "order": 4,
+        "parent_id": 0,
+        "enable": 1,
+        "project_quota_list": []
+      },
+      {
+        "id": 27945,
+        "name": "木工定额",
+        "dir_class": 0,
+        "order": 5,
+        "parent_id": 0,
+        "enable": 1,
+        "project_quota_list": []
+      },
+      {
+        "id": 27946,
+        "name": "油工定额",
+        "dir_class": 0,
+        "order": 6,
+        "parent_id": 0,
+        "enable": 1,
+        "project_quota_list": []
+      },
+      {
+        "id": 59347,
+        "name": "套餐定额",
+        "dir_class": 0,
+        "order": 7,
+        "parent_id": 0,
+        "enable": 1,
+        "project_quota_list": []
+      }
+    ]
+  }
+}

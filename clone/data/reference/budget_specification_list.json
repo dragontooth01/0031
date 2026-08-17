@@ -1,0 +1,1000 @@
+{
+  "code": 0,
+  "msg": "成功",
+  "data": {
+    "specifications": [
+      {
+        "id": 152794,
+        "name": "单面石膏板隔墙（厚度5cm内）",
+        "description": "测量放线-安装顶地龙骨-安装边龙骨-分档竖龙骨-安装竖龙骨-安装横龙骨-布设管线-封罩面-处理钉孔-处理接缝。工程标准：位置应精确，转角不允许小块拼接，所有连接件必须拧紧，夹牢，安装应牢固，表面平整、无污染、折裂、缺掉角、凹痕等缺陷,水平度≤4mm。",
+        "unit": "平方米",
+        "loss_rate": "0",
+        "main_material_cost_price": "47",
+        "assist_material_cost_price": "0.02",
+        "worker_cost_price": "35",
+        "main_material_sale_price": "65",
+        "assist_material_sale_price": "1",
+        "worker_sale_price": "45",
+        "total_cost_price": "82.02",
+        "total_sale_price": "111",
+        "profit_rate": "26.11",
+        "main_item_num": 3,
+        "assist_item_num": 1,
+        "worker_item_num": 1,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 152792,
+        "name": "瓷砖墙面铺贴30*60cm",
+        "description": "处理基层-找规矩-打底灰-排砖放线-面砖预处理-挂浆镶贴-勾缝擦缝。工程标准：铺贴牢固，表面平整干净、缝隙均匀、周边顺直，无明显高低，空鼓面积小于总数的5%。",
+        "unit": "㎡",
+        "loss_rate": "0",
+        "main_material_cost_price": "17.5",
+        "assist_material_cost_price": "15",
+        "worker_cost_price": "62",
+        "main_material_sale_price": "50",
+        "assist_material_sale_price": "18",
+        "worker_sale_price": "80",
+        "total_cost_price": "94.5",
+        "total_sale_price": "148",
+        "profit_rate": "36.15",
+        "main_item_num": 3,
+        "assist_item_num": 1,
+        "worker_item_num": 2,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 199,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 1092080,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 7814805,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 152793,
+        "name": "新砌墙12CM九五砖（1/2砖墙）",
+        "description": "85或95型红砖，按展开面积计算，不含水泥砂浆刮糙。抄平放线-立皮杆数-排砖摞底-盘角挂线-水泥砂浆铺设。工程标准：横平竖直、上下差缝、砂浆饱满、接搓牢固。",
+        "unit": "㎡",
+        "loss_rate": "0",
+        "main_material_cost_price": "90",
+        "assist_material_cost_price": "4",
+        "worker_cost_price": "32",
+        "main_material_sale_price": "85",
+        "assist_material_sale_price": "12",
+        "worker_sale_price": "45",
+        "total_cost_price": "126",
+        "total_sale_price": "142",
+        "profit_rate": "11.27",
+        "main_item_num": 1,
+        "assist_item_num": 1,
+        "worker_item_num": 1,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 7814806,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 152796,
+        "name": "墙面墙尼底层处理",
+        "description": "平均厚度8mm。批刮墙尼-打磨平整。在水电改造做完之后，墙面找平工序之前。工程标准：刮批填平，打磨平整光滑。",
+        "unit": "平方米",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "12",
+        "main_material_sale_price": "7",
+        "assist_material_sale_price": "1",
+        "worker_sale_price": "20",
+        "total_cost_price": "12",
+        "total_sale_price": "28",
+        "profit_rate": "57.14",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 1,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 153470,
+        "name": "门窗拆除",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 493118,
+        "name": "A7套餐",
+        "description": "999平米/元",
+        "unit": "平方米",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "999",
+        "total_cost_price": "0",
+        "total_sale_price": "999",
+        "profit_rate": "100",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 912477,
+        "name": "卫生间",
+        "description": "套餐只包含一个卫生间，超出一个卫生间12000一间",
+        "unit": "个",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "12000",
+        "total_cost_price": "0",
+        "total_sale_price": "12000",
+        "profit_rate": "100",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 152795,
+        "name": "集成平面吊顶面板(电器另计)",
+        "description": "参见详图，不含龙骨。弹线定位-安装罩面板-校正固定。工程标准：基准线准确，安装应牢固无松动脱落，表面平整、不得翘曲，吊顶平面平整度≤5mm。",
+        "unit": "平方米",
+        "loss_rate": "0",
+        "main_material_cost_price": "140",
+        "assist_material_cost_price": "6",
+        "worker_cost_price": "35",
+        "main_material_sale_price": "65",
+        "assist_material_sale_price": "1",
+        "worker_sale_price": "45",
+        "total_cost_price": "181",
+        "total_sale_price": "111",
+        "profit_rate": "-63.06",
+        "main_item_num": 1,
+        "assist_item_num": 1,
+        "worker_item_num": 1,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 7814812,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 1092081,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 2401393,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 152797,
+        "name": "墙、顶面批嵌腻子砂光",
+        "description": "批刮（满刮、补刮、点刮）腻子粉-打磨平整。工程标准：刮批填平，打磨平整光滑。",
+        "unit": "平方米",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "10",
+        "assist_material_sale_price": "0.5",
+        "worker_sale_price": "50",
+        "total_cost_price": "0",
+        "total_sale_price": "60.5",
+        "profit_rate": "100",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 152798,
+        "name": "墙纸墙布基层基膜处理",
+        "description": "处理基层-涂刷基膜-润纸刷胶-标贴壁纸-修整壁纸。工程标准：表面平整，色泽一致，无波纹起伏、气泡、裂缝、褶皱、污斑，斜视无胶痕。",
+        "unit": "平方米",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "11",
+        "assist_material_sale_price": "2",
+        "worker_sale_price": "50",
+        "total_cost_price": "0",
+        "total_sale_price": "63",
+        "profit_rate": "100",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 912478,
+        "name": "阳台",
+        "description": "套餐只包含一个阳台，超出一个阳台8000一个",
+        "unit": "个",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "8000",
+        "total_cost_price": "0",
+        "total_sale_price": "8000",
+        "profit_rate": "100",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 5966840,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 1397199,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "56",
+        "assist_material_cost_price": "2",
+        "worker_cost_price": "30",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "88",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 5966841,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 1092082,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 1918269,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 5966842,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 7800794,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 1092083,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 7800795,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 7800796,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 3307306,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      },
+      {
+        "id": 3307307,
+        "name": "",
+        "description": "",
+        "unit": "",
+        "loss_rate": "0",
+        "main_material_cost_price": "0",
+        "assist_material_cost_price": "0",
+        "worker_cost_price": "0",
+        "main_material_sale_price": "0",
+        "assist_material_sale_price": "0",
+        "worker_sale_price": "0",
+        "total_cost_price": "0",
+        "total_sale_price": "0",
+        "profit_rate": "0",
+        "main_item_num": 0,
+        "assist_item_num": 0,
+        "worker_item_num": 0,
+        "custom_field_values": [
+          {
+            "custom_field_id": 6,
+            "custom_field_name": "材质用料",
+            "custom_field_value_id": 0,
+            "content": ""
+          }
+        ],
+        "file_info": {
+          "id": 0,
+          "name": "",
+          "url": "",
+          "type": 0,
+          "origin_url": ""
+        }
+      }
+    ],
+    "custom_fields": [
+      {
+        "id": 6,
+        "name": "材质用料"
+      }
+    ]
+  }
+}

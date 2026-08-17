@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+  <title>摄像头详情</title>
+  <link rel="stylesheet" href="./style.css?v=1.2">
+  <script>
+    function fnResize() {
+      var deviceWidth = document.documentElement.clientWidth || window.innerWidth;
+      if (deviceWidth >= 750) {
+        deviceWidth = 750;
+      }
+      if (deviceWidth <= 320) {
+        deviceWidth = 320;
+      }
+      document.documentElement.style.fontSize = (deviceWidth / 75 * 2) + 'px'
+    }
+
+    fnResize()
+    window.addEventListener('resize', fnResize);
+  </script>
+</head>
+<body>
+  <div class="video" id="container">
+    <div class="player_box" id="myVideo"></div>
+    <div class="loading" id="loading">
+      <img id="cover" src="" alt="">
+      <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><path d="M512 170.666667C323.477333 170.666667 170.666667 323.477333 170.666667 512s152.810667 341.333333 341.333333 341.333333 341.333333-152.810667 341.333333-341.333333h85.333334c0 235.648-191.018667 426.666667-426.666667 426.666667S85.333333 747.648 85.333333 512 276.352 85.333333 512 85.333333v85.333334z" fill="#efefef"></path></svg>
+    </div>
+  </div>
+  <div class="controller">
+    <div class="zoom">
+      <div class="plus" onpointerdown="control({direction: 5, type: 1})" onpointerup="control({direction: 5, type: 2})">
+        <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path d="M668.734694 532.897959H355.265306c-11.493878 0-20.897959-9.404082-20.897959-20.897959s9.404082-20.897959 20.897959-20.897959h313.469388c11.493878 0 20.897959 9.404082 20.897959 20.897959s-9.404082 20.897959-20.897959 20.897959z" fill="#8a8a8a"></path><path d="M512 689.632653c-11.493878 0-20.897959-9.404082-20.897959-20.897959V355.265306c0-11.493878 9.404082-20.897959 20.897959-20.897959s20.897959 9.404082 20.897959 20.897959v313.469388c0 11.493878-9.404082 20.897959-20.897959 20.897959z" fill="#8a8a8a"></path><path d="M512 929.959184c-230.4 0-417.959184-187.559184-417.959184-417.959184s187.559184-417.959184 417.959184-417.959184 417.959184 187.559184 417.959184 417.959184-187.559184 417.959184-417.959184 417.959184z m0-794.122449c-207.412245 0-376.163265 168.75102-376.163265 376.163265s168.75102 376.163265 376.163265 376.163265 376.163265-168.75102 376.163265-376.163265-168.75102-376.163265-376.163265-376.163265z" fill="#8a8a8a"></path></svg>
+      </div>
+      <span class="txt">变倍</span>
+      <div class="minus" onpointerdown="control({direction: 6, type: 1})" onpointerup="control({direction: 6, type: 2})">
+        <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path d="M668.734694 532.897959H355.265306c-11.493878 0-20.897959-9.404082-20.897959-20.897959s9.404082-20.897959 20.897959-20.897959h313.469388c11.493878 0 20.897959 9.404082 20.897959 20.897959s-9.404082 20.897959-20.897959 20.897959z" fill="#8a8a8a"></path><path d="M512 929.959184c-230.4 0-417.959184-187.559184-417.959184-417.959184s187.559184-417.959184 417.959184-417.959184 417.959184 187.559184 417.959184 417.959184-187.559184 417.959184-417.959184 417.959184z m0-794.122449c-207.412245 0-376.163265 168.75102-376.163265 376.163265s168.75102 376.163265 376.163265 376.163265 376.163265-168.75102 376.163265-376.163265-168.75102-376.163265-376.163265-376.163265z" fill="#8a8a8a"></path></svg>
+      </div>
+    </div>
+    <div class="move">
+      <div class="up" onpointerdown="control({direction: 1, type: 1})" onpointerup="control({direction: 1, type: 2})">
+        <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path d="M73.736375 717.70398899l414.23639499-455.10212899c12.084223-13.253862 32.613792-14.227026 45.86765401-2.20829499 0.779759 0.714268 1.494027 1.428535 2.14382699 2.20829499L950.220646 717.703989c12.084223 13.253862 11.174504 33.848922-2.143826 45.867653a32.367175 32.367175 0 0 1-21.829168 8.445346L97.773837 772.016988c-17.931395 0-32.483832-14.487969-32.483832-32.483831a32.365128 32.365128 0 0 1 8.44637-21.82916801" fill="#bfbfbf"></path></svg>
+      </div>
+      <div class="right" onpointerdown="control({direction: 4, type: 1})" onpointerup="control({direction: 4, type: 2})">
+        <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path d="M73.736375 717.70398899l414.23639499-455.10212899c12.084223-13.253862 32.613792-14.227026 45.86765401-2.20829499 0.779759 0.714268 1.494027 1.428535 2.14382699 2.20829499L950.220646 717.703989c12.084223 13.253862 11.174504 33.848922-2.143826 45.867653a32.367175 32.367175 0 0 1-21.829168 8.445346L97.773837 772.016988c-17.931395 0-32.483832-14.487969-32.483832-32.483831a32.365128 32.365128 0 0 1 8.44637-21.82916801" fill="#bfbfbf"></path></svg>
+      </div>
+      <div class="down" onpointerdown="control({direction: 2, type: 1})" onpointerup="control({direction: 2, type: 2})">
+        <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path d="M73.736375 717.70398899l414.23639499-455.10212899c12.084223-13.253862 32.613792-14.227026 45.86765401-2.20829499 0.779759 0.714268 1.494027 1.428535 2.14382699 2.20829499L950.220646 717.703989c12.084223 13.253862 11.174504 33.848922-2.143826 45.867653a32.367175 32.367175 0 0 1-21.829168 8.445346L97.773837 772.016988c-17.931395 0-32.483832-14.487969-32.483832-32.483831a32.365128 32.365128 0 0 1 8.44637-21.82916801" fill="#bfbfbf"></path></svg>
+      </div>
+      <div class="left" onpointerdown="control({direction: 3, type: 1})" onpointerup="control({direction: 3, type: 2})">
+        <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path d="M73.736375 717.70398899l414.23639499-455.10212899c12.084223-13.253862 32.613792-14.227026 45.86765401-2.20829499 0.779759 0.714268 1.494027 1.428535 2.14382699 2.20829499L950.220646 717.703989c12.084223 13.253862 11.174504 33.848922-2.143826 45.867653a32.367175 32.367175 0 0 1-21.829168 8.445346L97.773837 772.016988c-17.931395 0-32.483832-14.487969-32.483832-32.483831a32.365128 32.365128 0 0 1 8.44637-21.82916801" fill="#bfbfbf"></path></svg>
+      </div>
+    </div>
+    <div class="focus">
+      <div class="plus" onpointerdown="control({direction: 7, type: 1})" onpointerup="control({direction: 7, type: 2})">
+        <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path d="M668.734694 532.897959H355.265306c-11.493878 0-20.897959-9.404082-20.897959-20.897959s9.404082-20.897959 20.897959-20.897959h313.469388c11.493878 0 20.897959 9.404082 20.897959 20.897959s-9.404082 20.897959-20.897959 20.897959z" fill="#8a8a8a"></path><path d="M512 689.632653c-11.493878 0-20.897959-9.404082-20.897959-20.897959V355.265306c0-11.493878 9.404082-20.897959 20.897959-20.897959s20.897959 9.404082 20.897959 20.897959v313.469388c0 11.493878-9.404082 20.897959-20.897959 20.897959z" fill="#8a8a8a"></path><path d="M512 929.959184c-230.4 0-417.959184-187.559184-417.959184-417.959184s187.559184-417.959184 417.959184-417.959184 417.959184 187.559184 417.959184 417.959184-187.559184 417.959184-417.959184 417.959184z m0-794.122449c-207.412245 0-376.163265 168.75102-376.163265 376.163265s168.75102 376.163265 376.163265 376.163265 376.163265-168.75102 376.163265-376.163265-168.75102-376.163265-376.163265-376.163265z" fill="#8a8a8a"></path></svg>
+      </div>
+      <span class="txt">变焦</span>
+      <div class="minus" onpointerdown="control({direction: 8, type: 1})" onpointerup="control({direction: 8, type: 2})">
+        <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path d="M668.734694 532.897959H355.265306c-11.493878 0-20.897959-9.404082-20.897959-20.897959s9.404082-20.897959 20.897959-20.897959h313.469388c11.493878 0 20.897959 9.404082 20.897959 20.897959s-9.404082 20.897959-20.897959 20.897959z" fill="#8a8a8a"></path><path d="M512 929.959184c-230.4 0-417.959184-187.559184-417.959184-417.959184s187.559184-417.959184 417.959184-417.959184 417.959184 187.559184 417.959184 417.959184-187.559184 417.959184-417.959184 417.959184z m0-794.122449c-207.412245 0-376.163265 168.75102-376.163265 376.163265s168.75102 376.163265 376.163265 376.163265 376.163265-168.75102 376.163265-376.163265-168.75102-376.163265-376.163265-376.163265z" fill="#8a8a8a"></path></svg>
+      </div>
+    </div>
+  </div>
+  <div class="format-wrap">
+    <div class="format-toggle">
+      <span>视频格式</span>
+      <div class="format-btns">
+        <button id="fmtFLV" onclick="setFormat(2)">FLV</button>
+        <button id="fmtHLS" onclick="setFormat(3)">HLS</button>
+      </div>
+    </div>
+    <p class="format-desc">如视频无法播放，可尝试切换视频格式</p>
+  </div>
+
+  <script type="text/javascript">
+    // 16:9 宽高比
+    function setScale() {
+      var container = document.getElementById('container');
+      var width = container.clientWidth
+      var height = Math.round(9 / 16 * width);
+      container.style.height = height + 'px';
+    }
+
+    // 解析query
+    function getQueryString(name) {
+      let reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+      let r = window.location.search.substr(1).match(reg);
+      if(r != null) {
+        return  decodeURIComponent(r[2]);
+      } else {
+        return null;
+      }
+    }
+
+    // 封面
+    function setCover(id, url) {
+      var cover = document.getElementById(id);
+      if(cover) {
+        cover.src = url;
+        cover.classList.add('show');
+        cover = null;
+      }
+    }
+
+    setScale();
+    window.addEventListener('resize', setScale);
+
+    var coverUrl = getQueryString('cover');
+    coverUrl && setCover('cover', coverUrl);
+  </script>
+  <script src="https://cdn.e-shigong.com/static/js/axios.min.js"></script>
+  <script src="./EasyPlayer-pro.js?v1.0" onerror="window.__easyPlayerLoadFailed = true;"></script>
+  <script src="./video.js?v1.7"></script>
+</body>
+</html>
