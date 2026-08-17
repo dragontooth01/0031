@@ -518,6 +518,10 @@ function proxyToApi(req, res, onUpstream, skipReply, preBody) {
     }
     const fname = FIXTURE_MODE === 'live' ? null : fixtureName(req, body);
     console.log('[api]', req.method, req.url);
+    // 无云端会话模式（LZ_NO_CLOUD_SYNC=1）：代理接口云端必然 10012/10305，
+    // 若透传给前端，axios 拦截器会清除登录凭证并弹回登录页（登录"失败"）。
+    // 此模式下将认证错误宽容改写为空成功响应，保持本地登录稳定。
+    const noCloudMode = process.env.LZ_NO_CLOUD_SYNC === '1';
 
     // offline 模式：完全不联网，直接回放录制数据
     if (FIXTURE_MODE === 'offline') {
@@ -530,7 +534,7 @@ function proxyToApi(req, res, onUpstream, skipReply, preBody) {
       return;
     }
 
-    doProxy(req.method, req.url, headers, body, 5, fname, res, onUpstream, skipReply);
+    doProxy(req.method, req.url, headers, body, 5, fname, res, onUpstream, skipReply, noCloudMode);
   };
   if (preBody !== undefined) { finish(preBody); return; }
   const chunks = [];
@@ -539,7 +543,7 @@ function proxyToApi(req, res, onUpstream, skipReply, preBody) {
   req.on('error', () => { try { res.destroy(); } catch (e) {} });
 }
 
-function doProxy(method, targetPath, headers, body, redirectsLeft, fname, res, onUpstream, skipReply) {
+function doProxy(method, targetPath, headers, body, redirectsLeft, fname, res, onUpstream, skipReply, noCloudMode) {
   console.log('[proxy-headers]', method, targetPath, JSON.stringify(headers));
   const preq = https.request({
     protocol: 'https:', host: API_HOST, path: targetPath, method: method, headers: headers
@@ -595,7 +599,19 @@ function doProxy(method, targetPath, headers, body, redirectsLeft, fname, res, o
       const chunks = [];
       pres.on('data', c => chunks.push(c));
       pres.on('end', () => {
-        const buf = Buffer.concat(chunks);
+        let buf = Buffer.concat(chunks);
+        // 无云端会话模式：认证错误（10012 用户未登录 / 10305 公司账户未登录）宽容改写为空成功，
+        // 避免前端 axios 拦截器清除登录凭证并弹回登录页
+        if (noCloudMode && pres.statusCode === 200) {
+          try {
+            const j = JSON.parse(buf.toString('utf8'));
+            if (j && typeof j === 'object' && (j.code === 10012 || j.code === 10305)) {
+              j.code = 0; j.msg = '成功';
+              if (!j.data || typeof j.data !== 'object') j.data = {};
+              buf = Buffer.from(JSON.stringify(j));
+            }
+          } catch (e) { /* 非 JSON 跳过 */ }
+        }
         // 企业后台登录成功：补充前端 JS 会写但本地环境可能丢失的 cookie（autoLogin / permission），
         // 保证刷新与新窗口能自动恢复登录态（原站由前端脚本写入，1:1 等效）
         if (method === 'POST' && /\/company\/login\/?(\?|$)/.test(targetPath)) {
