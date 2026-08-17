@@ -1,1 +1,1 @@
-{"meta":{"savedAt":"2026-08-17-18-54-27","status":200,"headers":{"content-type":"application/json; charset=utf-8"}},"body":"{\"code\": 0, \"msg\": \"成功\", \"data\": {\"analysis_export_perm\": 0, \"user_list\": [{\"user_id\": 34806, \"user_name\": \"小君\", \"is_selected\": 0}]}}"}
+{"meta":{"savedAt":"2026-08-18-02-11-02","status":200,"headers":{"content-type":"application/json; charset=utf-8"}},"body":"{\"code\": 0, \"msg\": \"成功\", \"data\": {\"analysis_export_perm\": 0, \"user_list\": [{\"user_id\": 34806, \"user_name\": \"小君\", \"is_selected\": 0}]}}"}

@@ -288,6 +288,10 @@ const LOCAL_WHITE_DEFAULT = [
   // 汇总类读接口（云端快照 1:1）
   '/material_apply/v3/decorator/order/list/', '/project/inspection/company/list/',
   '/project/attendance/company/list/', '/oa/attendance/company/month/check/statistic/',
+  // 后台财务设置（个性化设置页·财务管理 tab：付款/材料申请/分公司账户/报销/付款类型/分析设置）
+  '/company/project/payment/setting/', '/company/material/apply/setting/', '/company/list/',
+  '/finance/add/sub_company/account/setting/', '/oa/reimbursement/review/mode/',
+  '/finance/analysis/setting/',
   // 其余财务写接口安全兜底（宽容落库防云端污染）
   '/finance/analysis/paid_record/', '/finance/business/fee/', '/finance/paid/edit/',
   '/finance/project/apply_type/', '/finance/self_define_fee/', '/finance/woker_fee/',

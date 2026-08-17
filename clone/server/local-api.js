@@ -2678,6 +2678,23 @@ function deptRanking() {
   return { code: 0, msg: '成功', data: deptRankingSnap() };
 }
 
+// ---------------- 后台财务设置（个性化设置页·财务管理 tab，云端快照 1:1） ----------------
+const bfPaymentSettingSnap = snapLoader('backend_finance_payment_setting.json', {});
+const bfApplyContractTypesSnap = snapLoader('backend_finance_apply_contract_types.json', {});
+const bfApplyCommodityContentsSnap = snapLoader('backend_finance_apply_commodity_contents.json', {});
+const bfSubCompanyAccountSnap = snapLoader('backend_finance_sub_company_account.json', {});
+const bfReimbursementModeSnap = snapLoader('backend_finance_reimbursement_mode.json', {});
+const bfCompanyListSnap = snapLoader('backend_finance_company_list.json', {});
+const bfApplyTypeListSnap = snapLoader('backend_finance_apply_type_list.json', {});
+const bfAnalysisSettingSnap = snapLoader('backend_finance_analysis_setting.json', {});
+// 读接口：公司维度全局配置快照（参数 company_id/phase/contract_type 不影响整体结构）
+function bfRead(snap, dflt) {
+  return () => {
+    const s = snap();
+    return { code: 0, msg: '成功', data: s && typeof s === 'object' && s.data ? s.data : dflt };
+  };
+}
+
 // 收款列表：快照 + 筛选（project_id/pm_id/designer_id/status/search_word）+ 分页
 function financePaidList({ body }) {
   const g = financeGlobal('paid_list')();
@@ -5569,6 +5586,20 @@ const handlers = {
   'POST /project/attendance/company/list/': attendanceCompanyList,
   'POST /oa/attendance/company/month/check/statistic/': oaAttendanceStatistic,
   'POST /company/business/market/data/department/ranking/': deptRanking,
+  // 后台财务设置（个性化设置页·财务管理 tab，云端快照 1:1；写接口宽容落库防云端污染）
+  'POST /company/project/payment/setting/': bfRead(bfPaymentSettingSnap, {}),
+  'POST /company/project/payment/setting/edit/': financeWriteSafe('payment_setting_edit'),
+  'POST /company/material/apply/setting/contract/types/': bfRead(bfApplyContractTypesSnap, {}),
+  'POST /company/material/apply/setting/commodity/contents/': bfRead(bfApplyCommodityContentsSnap, {}),
+  'POST /company/material/apply/setting/edit/': financeWriteSafe('material_apply_setting_edit'),
+  'POST /company/list/': bfRead(bfCompanyListSnap, {}),
+  'POST /finance/add/sub_company/account/setting/': bfRead(bfSubCompanyAccountSnap, {}),
+  'POST /finance/add/sub_company/account/setting/set/': financeWriteSafe('sub_company_account_set'),
+  'POST /oa/reimbursement/review/mode/get/': bfRead(bfReimbursementModeSnap, {}),
+  'POST /oa/reimbursement/review/mode/set/': financeWriteSafe('reimbursement_mode_set'),
+  'POST /finance/project/apply_type/list/': bfRead(bfApplyTypeListSnap, {}),
+  'POST /finance/analysis/setting/': bfRead(bfAnalysisSettingSnap, {}),
+  'POST /finance/analysis/setting/set/': financeWriteSafe('analysis_setting_set'),
   'POST /finance/list/': financeListHandler,
   // 财务收款详情（子窗口 financial-income-detail）
   'POST /finance/detail/': financeDetailHandler,

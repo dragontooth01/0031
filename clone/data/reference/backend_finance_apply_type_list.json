@@ -1,0 +1,1 @@
+{"code": 0, "msg": "成功", "data": {"total_num": 4, "apply_type_list": [{"apply_type_id": 676, "apply_type_name": "设计费", "can_del": 0}, {"apply_type_id": 244, "apply_type_name": "板材", "can_del": 1}, {"apply_type_id": 243, "apply_type_name": "电线", "can_del": 1}, {"apply_type_id": 242, "apply_type_name": "水泥、黄沙", "can_del": 1}]}}
