@@ -609,6 +609,8 @@ function doProxy(method, targetPath, headers, body, redirectsLeft, fname, res, o
               j.code = 0; j.msg = '成功';
               if (!j.data || typeof j.data !== 'object') j.data = {};
               buf = Buffer.from(JSON.stringify(j));
+              // body 长度已变，同步修正响应头，否则浏览器报 ERR_CONTENT_LENGTH_MISMATCH
+              h['content-length'] = String(buf.length);
             }
           } catch (e) { /* 非 JSON 跳过 */ }
         }
